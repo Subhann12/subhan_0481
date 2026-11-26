@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Accessible Page</title></head>
+<body>
+  <a href="#main">Skip to main content</a>
+  <nav aria-label="Main navigation"><a href="#help">Home</a> <a href="#help">Help</a></nav>
+  <main id="main">
+    <h1>Accessible Page</h1>
+    <form role="search" aria-label="Site search">
+      <label for="search">Search:</label>
+      <input type="search" id="search" name="search">
+      <button type="reset" aria-label="Clear search">X</button>
+    </form>
+    <img src="https://placehold.co/150x60?text=Logo" alt="College logo">
+    <p id="help">Welcome to the accessible page.</p>
+  </main>
+</body>
+</html>
